@@ -1,0 +1,11 @@
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.background {
+  background-color: #eeebe8f1;
+  min-height: 100vh;
+}

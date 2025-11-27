@@ -1,0 +1,130 @@
+.accordion-body {
+  text-align: left;
+}
+.back-button {
+  margin-left: 1410px;
+}
+.card-container {
+  display: inline-block;
+  margin: 40px auto;
+  border-radius: 10px;
+  border: none;
+  width: 1300px;
+  min-height: 500px;
+  text-align: center;
+}
+.paragraph-input {
+  padding: 10px;
+  font-size: 1rem;
+}
+.card-container-auth {
+  display: inline-block;
+  margin: 40px auto;
+  border-radius: 10px;
+  border: none;
+  width: 500px;
+  text-align: center;
+}
+.company-logo {
+  width: 64;
+  height: 64;
+  object-fit: cover;
+  border-radius: 8;
+  flex: 0 0 64px;
+}
+.card-container-faqs {
+  display: inline-block;
+  margin: 40px auto;
+  border-radius: 10px;
+  border: none;
+  width: 1000px;
+  text-align: center;
+}
+.conversation {
+  width: 65%;
+  padding-left: 1rem;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.incorrect {
+  color: red;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+}
+.profile-image-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile-image.selected {
+  border: 2px solid #007bff;
+}
+.message-and-conversation {
+  display: flex;
+  gap: 2rem;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  position: relative;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.message-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  background: transparent;
+}
+.message-item.selected {
+  background: #f0f0f0;
+}
+.message-list {
+  width: 35%;
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+.searchbar {
+  flex: 1;
+  padding: 0.5rem 1rem;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
